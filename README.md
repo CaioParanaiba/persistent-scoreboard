@@ -1,5 +1,7 @@
 # Persistent Scoreboard Engine 💾🏆
 
+> **Nota Acadêmica:** Este repositório contém um trabalho prático desenvolvido para a disciplina de **Técnicas de Programação**. O objetivo principal da implementação foi evoluir os conceitos de **alocação dinâmica** e **funções** desenvolvidos anteriormente, aprofundando intensamente na **manipulação avançada de arquivos binários** em C (`fread`, `fwrite`, `fseek`) para simular o comportamento de um SGBD real.
+
 Um motor de base de dados em C de alta performance, desenhado para gerir tabelas de classificação (*scoreboards*) de Maratonas de Programação (estilo ICPC / Codeforces). 
 
 Esta versão implementa uma arquitetura **Disk-Backed Storage com In-Memory Indexing**, garantindo persistência de dados em disco físico com tempos de resposta de busca em $O(\log N)$ diretamente na memória RAM.
